@@ -16,4 +16,4 @@ This could also be fixed by adding `overflow: hidden` to the wrapper element.
 
 ### 3. The page is slow to load due to unoptimized images.
 
-I have resized the image file to 327 x 420 px.
+I have resized the image file to 327 x 420 px. The original image is in the raw-images folder.
