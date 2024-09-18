@@ -4,9 +4,9 @@
 
 ### 1. When you hover the "Buy now" button the background colour doesn't change.
 
-This is due to line 31 `position: absoloute;` causing the pseudo element overlapping the button, I have fixed it by adding `pointer-events: none;` to the absoloutely positiond element.
+This is due to line 31 `position: absolute;` causing the pseudo element overlapping the button, I have fixed it by adding `pointer-events: none;` to the absolutely positioned element.
 
-It could also be fixed by removing the absoloute positioning, removing the :after pseudo element, or setting the z index to lower than the button's z index.
+It could also be fixed by removing the absolute positioning, removing the :after pseudo element, or setting the z index to lower than the button's z index.
 
 ### 2. The styling on the image is missing its rounded borders.
 
